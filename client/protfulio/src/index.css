@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 *:root{
-    background-color: #0c0c1d;
+    height: 100vh;
     color: lightgrey;
+    background-image: url('/bg.jpeg'); /* Correct usage */
+ 
 }
