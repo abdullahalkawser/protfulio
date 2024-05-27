@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../navber/Navbar'
 import Hero from '../Hero/Hero'
 import About from '../About/About'
+import Skills from '../Skilss/Skills'
+import SkillsProgressBar from '../Skill/Skill'
 
 const Home = () => {
     return (
@@ -11,6 +13,8 @@ const Home = () => {
        
        <Hero></Hero>
        <About></About>
+       <Skills></Skills>
+       <SkillsProgressBar></SkillsProgressBar>
    </div>
    </div>
     )
