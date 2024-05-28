@@ -19,7 +19,7 @@ const Hero = () => {
                       'Programmer',
                     ]}
                     typeSpeed={20}
-                    backSpeed={20000}
+                    backSpeed={20}
                     loop
                   />
                 </p>

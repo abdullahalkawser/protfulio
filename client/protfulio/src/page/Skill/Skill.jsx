@@ -44,7 +44,7 @@ const SkillsProgressBar = () => {
                     {skills.map((skill, index) => (
                         <div key={index} className="progress-container">
                             <div className="text-lg font-medium dark:text-white">{skill.name}</div>
-                            <Progress progress={skill.percentage} size="lg" color="red" />
+                            <Progress progress={skill.percentage} size="lg" color="pink" />
                         </div>
                     ))}
                 </div>
